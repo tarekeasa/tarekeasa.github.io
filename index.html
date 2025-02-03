@@ -2,71 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Tarek Easa">
-    <meta name="description" content="Dr. Tarek Easa - Orthodontist">
-    <meta name="keywords" content="orthodontist, dentist, Tarek Easa">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="canonical" href="https://<your-github-username>.github.io/tarek-easa-dentist/">
-    <link rel="icon" type="image/x-icon" href="img/logo.png">
-    <title>Dr. Tarek Easa - Orthodontist</title>
+    <title>Tarek Easa - Orthodontist</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
-<body class="dark-theme">
-    <div class="container">
-        <header class="header">
-            <span class="header__inner">
-                <a href="index.html" style="text-decoration: none;">
-                    <div class="logo">
-                        <span class="logoicon"><img src="img/logo.png" alt="Logo"></span>
-                        <span class="logo__mark">></span>
-                        <span class="logo__text">Dr. Tarek Easa</span>
-                        <span class="logo__cursor"></span>
-                    </div>
-                </a>
-                <span class="header__right">
-                    <nav class="menu">
-                        <ul class="menu__inner">
-                            <li><a href="about/">About</a></li>
-                            <li><a href="videos/">Videos</a></li>
-                            <li><a href="contact/">Contact</a></li>
-                        </ul>
-                    </nav>
-                    <span class="theme-toggle unselectable">
-                        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="https://www.w3.org/2000/svg">
-                            <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22 3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
-                        </svg>
-                    </span>
-                </span>
-            </span>
-        </header>
-
-        <div class="content">
-            <main aria-role="main">
-                <div>
-                    <h1>Welcome to Dr. Tarek Easa's Website</h1>
-                    <div>
-                        <p>Your smile is our priority. Explore my work and get in touch for consultations.</p>
-                    </div>
-                </div>
-            </main>
+<body>
+    <header>
+        <div class="container">
+            <img src="img/logo.png" alt="Tarek Easa Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about/index.html">About</a></li>
+                    <li><a href="videos/index.html">Videos</a></li>
+                    <li><a href="contact/index.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-
-        <footer class="footer">
-            <div class="footer__inner">
-                <div class="footer__content">
-                    <span>&copy; 2023</span>
-                    <span><a href="index.html">Dr. Tarek Easa</a></span>
-                </div>
+    </header>
+    <section class="hero" style="background-image: url('img/wallpaper.jpg');">
+        <div class="container">
+            <h1>Welcome to Tarek Easa's Orthodontic Clinic</h1>
+            <p>Providing top-notch orthodontic care with expertise and dedication.</p>
+        </div>
+    </section>
+    <section class="videos">
+        <div class="container">
+            <h2>Featured Videos</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
             </div>
-            <div class="footer__inner">
-                <div class="footer__content">
-                    <span>Powered by <a href="https://github.com">GitHub</a></span>
-                </div>
-            </div>
-        </footer>
-    </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>Contact me: <a href="mailto:easatarek1@gmail.com">easatarek1@gmail.com</a> | WhatsApp: +201023312131</p>
+            <p>&copy; 2025 Tarek Easa. All Rights Reserved.</p>
+        </div>
+    </footer>
     <script src="js/script.js"></script>
 </body>
 </html>
